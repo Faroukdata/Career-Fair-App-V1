@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HI! PARIS Career Fair — App
 
 An app to browse candidates, open CVs, and mark follow‑up flags. Designed to duplicate per sponsor (“mécène”) with minimal changes.
@@ -161,4 +160,3 @@ That’s it — plug the right URLs/paths into secrets and go!
 =======
 # Career-Fair-App-V1
 HI! PARIS Career Fair — Streamlit Application
->>>>>>> 08182fc (Initial commit)
