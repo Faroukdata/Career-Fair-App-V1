@@ -160,3 +160,20 @@ That’s it — plug the right URLs/paths into secrets and go!
 =======
 # Career-Fair-App-V1
 HI! PARIS Career Fair — Streamlit Application
+
+## last update
+
+- 🧭 **Stable grid** (no flicker when editing)
+- 🔍 **Multi-token search**, accent-insensitive (`kadri farouk` or `farouk kadri`)
+- 💾 **Autosave policy**:
+  - Instant save (debounced) when filtering
+  - Buffered save every **30 s** when viewing full list (set to **180 s** in production)
+- 🧩 **Optimistic UI**: edits show instantly while saving in the background
+- 💡 **"Save now"** button under **Clear search**
+- 🧼 Code cleanup and helper functions for clarity and maintainability
+
+## performance tips
+- Autosave behavior can be tuned in `my_app.py`:
+  - `AUTOSAVE_DEBOUNCE_SEC` → delay between instant saves (default: 0.35 s)
+  - `BATCH_SAVE_INTERVAL_SEC` → buffered save interval (default: 30 s)
+
